@@ -1,0 +1,227 @@
+.contact-section {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+.contact-info .section-title {
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    max-width: 90%;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact-icon {
+    font-size: 24px;
+    color: var(--color-primary);
+    background-color: rgba(0, 142, 133, 0.1);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.contact-item h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-item p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* Form Styles */
+.contact-form-wrapper {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    position: relative;
+    /* For absolute positioning of success message */
+}
+
+.success-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    animation: fadeIn 0.4s ease;
+    text-align: center;
+    padding: 30px;
+}
+
+/* .success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+} */
+
+.success-message {
+    background: #dcfce7;
+    color: #166534;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.success-icon {
+    font-size: 60px;
+    color: #4CAF50;
+    animation: scaleIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.success-message p {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-map {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border-color: blue;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .contact-map {
+        height: 200px;
+        margin-top: 50px;
+    }
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: #fcfcfc;
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    color: #333;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    /* Fix sizing */
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(0, 142, 133, 0.1);
+}
+
+.form-textarea {
+    height: 150px;
+    resize: none;
+}
+
+.form-select {
+    color: #666;
+}
+
+.submit-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.submit-btn:hover {
+    background-color: var(--color-primary);
+}
+
+@media (max-width: 900px) {
+    .contact-section {
+        padding: 60px 20px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-form-wrapper {
+        padding: 30px 20px;
+    }
+}

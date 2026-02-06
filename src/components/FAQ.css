@@ -1,0 +1,138 @@
+.faq-section {
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+.section-title {
+    color: black;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    /* Match About Us ratio */
+    gap: 80px;
+    align-items: start;
+}
+
+.faq-image-col {
+    height: 700px;
+    position: relative;
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Subtle backing if image doesn't fill */
+}
+
+.faq-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.faq-content-col {
+    padding-top: 20px;
+}
+
+.faq-content-col .section-title {
+    margin-bottom: 50px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.faq-icon {
+    font-size: 1.2rem;
+    color: #888;
+    transition: all 0.3s ease;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+}
+
+.faq-answer p {
+    margin-top: 15px;
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Active State */
+.faq-item.active .faq-question h3 {
+    color: #008E85;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+    /* Optional flair */
+    color: #008E85;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px;
+    /* Approximate max height */
+    opacity: 1;
+}
+
+@media (max-width: 900px) {
+    .faq-section {
+        padding: 60px 20px;
+    }
+
+    .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .faq-image-col {
+        height: 400px;
+        order: 2;
+    }
+
+    .faq-content-col {
+        text-align: center;
+        order: 1;
+    }
+
+    .faq-content-col .section-title {
+        margin-bottom: 30px;
+        font-size: 2rem;
+    }
+
+    .faq-question {
+        text-align: left;
+    }
+
+    .faq-question h3 {
+        font-size: 1rem;
+    }
+}
