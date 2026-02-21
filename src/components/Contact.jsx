@@ -33,8 +33,8 @@ const Contact = () => {
             `*Event Type:* ${formData.eventType}%0A` +
             `*Message:* ${formData.message}`;
 
-        // WhatsApp number: 918489707861
-        const whatsappUrl = `https://wa.me/918489707861?text=${message}`;
+        // WhatsApp number: 919488730758
+        const whatsappUrl = `https://wa.me/919488730758?text=${message}`;
 
         // Redirect to WhatsApp
         window.open(whatsappUrl, '_blank');
@@ -59,21 +59,21 @@ const Contact = () => {
                                 <span className="material-symbols-outlined contact-icon">location_on</span>
                                 <div>
                                     <h4>{t('contact.visit')}</h4>
-                                    <p>123 E, Devipattinam Road, Near Ayiravysiya Arisi Kadai Mahal, Kenikarai, Kenikarai, Ramanathapuram-623504, Tamil Nadu</p>
+                                    <p>{t('contact.addressVal')}</p>
                                 </div>
                             </div>
                             <div className="contact-item">
                                 <span className="material-symbols-outlined contact-icon">call</span>
                                 <div>
                                     <h4>{t('contact.call')}</h4>
-                                    <p>+91 94887 30758</p>
+                                    <p>{t('contact.phoneVal1')}<br />{t('contact.phoneVal2')}</p>
                                 </div>
                             </div>
                             <div className="contact-item">
                                 <span className="material-symbols-outlined contact-icon">mail</span>
                                 <div>
                                     <h4>{t('contact.email')}</h4>
-                                    <p>info@opsmintevents.com</p>
+                                    <p>{t('contact.emailVal')}</p>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@ const Contact = () => {
 
             <div className="contact-map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.4082723326173!2d78.8315147!3d9.3643753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b019df77e8d6729%3A0x6a0a099a4e4e9a86!2sDevipattinam%20Rd%2C%20Kenikarai%2C%20Ramanathapuram%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1709461234567!5m2!1sen!2sin"
+                    src="https://maps.google.com/maps?q=6/186%20kavindapady%20main%20road,%20Kalingarayan%20Palayam,%20Bhavani,%20Erode,%20Tamil%20Nadu&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     width="100%"
                     height="50%"
                     style={{ border: 0 }}
@@ -240,7 +240,7 @@ export default Contact;
 
 //         const encodedMessage = encodeURIComponent(message);
 
-//         const whatsappUrl = `https://wa.me/918489707861?text=${encodedMessage}`;
+//         const whatsappUrl = `https://wa.me/919488730758?text=${encodedMessage}`;
 
 //         // ✅ Open WhatsApp (REQUIRED to send message)
 //         window.open(whatsappUrl, '_blank');

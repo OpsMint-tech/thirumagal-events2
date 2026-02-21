@@ -106,7 +106,7 @@ export const translations = {
         about: {
             subtitle: "ABOUT US",
             title: "WE CREATE MEMORIES THAT LAST A LIFETIME",
-            desc1: "Thirumagal Event Planner has been creating unforgettable moments for over 10 years with trust, quality, and style. We are a team of passionate professionals dedicated to delivering beautifully planned, stress-free events that reflect your unique personality and vision.",
+            desc1: "Thirumagal Event Planner has been creating unforgettable moments for over 35 years with trust, quality, and style. We are a team of passionate professionals dedicated to delivering beautifully planned, stress-free events that reflect your unique personality and vision.",
             desc2: "From intimate gatherings to grand celebrations, we handle every detail with precision and care, attention to detail, and a commitment to excellence.",
             btn: "READ MORE"
         },
@@ -151,6 +151,10 @@ export const translations = {
             visit: "Visit Us",
             call: "Call Us",
             email: "Email Us",
+            addressVal: "6/186 kavindapady main road, Kalingarayan Palayam, Bhavani, Erode, Tamil Nadu",
+            phoneVal1: "+91 98429 30758",
+            phoneVal2: "+91 94887 30758",
+            emailVal: "thirumagalravithirumagalravi@gmail.com",
             name: "Your Name",
             emailPlh: "Your Email",
             phone: "Phone Number",
@@ -280,7 +284,7 @@ export const translations = {
         about: {
             subtitle: "எங்களைப் பற்றி",
             title: "வாழ்நாள் முழுவதும் நிலைத்திருக்கும் நினைவுகளை உருவாக்குகிறோம்",
-            desc1: "திருமகள் ஈவென்ட் பிளானர் 10 ஆண்டுகளுக்கும் மேலாக நம்பிக்கை, தரம் மற்றும் பாணியுடன் மறக்க முடியாத தருணங்களை உருவாக்கி வருகிறது. நாங்கள் உங்கள் தனித்துவத்தைப் பிரதிபலிக்கும் வகையில் சிறப்பாகத் திட்டமிடப்பட்ட நிகழ்வுகளை வழங்க அர்ப்பணிப்புடன் செயல்படுகிறோம்.",
+            desc1: "திருமகள் ஈவென்ட் பிளானர் 35 ஆண்டுகளுக்கும் மேலாக நம்பிக்கை, தரம் மற்றும் பாணியுடன் மறக்க முடியாத தருணங்களை உருவாக்கி வருகிறது. நாங்கள் உங்கள் தனித்துவத்தைப் பிரதிபலிக்கும் வகையில் சிறப்பாகத் திட்டமிடப்பட்ட நிகழ்வுகளை வழங்க அர்ப்பணிப்புடன் செயல்படுகிறோம்.",
             desc2: "சிறிய சந்திப்புகள் முதல் பிரம்மாண்டமான கொண்டாட்டங்கள் வரை, ஒவ்வொரு விவரத்தையும் துல்லியமாகவும் கவனமாகவும் கையாளுகிறோம்.",
             btn: "மேலும் படிக்க"
         },
@@ -325,6 +329,10 @@ export const translations = {
             visit: "நேரில் வர",
             call: "அழைக்க",
             email: "மின்னஞ்சல்",
+            addressVal: "6/186 கவிந்தபாடி மெயின் ரோடு, காலிங்கராயன் பாளையம், பவானி, ஈரோடு, தமிழ்நாடு",
+            phoneVal1: "+91 98429 30758",
+            phoneVal2: "+91 94887 30758",
+            emailVal: "thirumagalravithirumagalravi@gmail.com",
             name: "உங்கள் பெயர்",
             emailPlh: "உங்கள் மின்னஞ்சல்",
             phone: "தொலைபேசி எண்",
