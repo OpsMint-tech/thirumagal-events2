@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Primary Website URL -->
   <url>
-    <loc>https://thirumagalevents.com/</loc>
-    <lastmod>2024-03-20</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://thirumagaldecorsandevents.com/</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    
+    <!-- Service Images for Advanced SEO -->
+    <image:image>
+      <image:loc>https://thirumagaldecorsandevents.com/src/assets/floral%20decor01.webp</image:loc>
+      <image:title>Floral Decoration Services by Thirumagal Events</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://thirumagaldecorsandevents.com/src/assets/Catering03.webp</image:loc>
+      <image:title>Professional Catering Services</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://thirumagaldecorsandevents.com/src/assets/Stage01.webp</image:loc>
+      <image:title>Luxury Stage Backdrop Design</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://thirumagaldecorsandevents.com/src/assets/wed03.webp</image:loc>
+      <image:title>Wedding Photography and Planning</image:title>
+    </image:image>
   </url>
+
+  <!-- Canonical Section URLs (Useful for some crawlers) -->
+  <url>
+    <loc>https://thirumagaldecorsandevents.com/#about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thirumagaldecorsandevents.com/#services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thirumagaldecorsandevents.com/#decorations</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thirumagaldecorsandevents.com/#portfolio</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thirumagaldecorsandevents.com/#contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>

@@ -1,4 +1,46 @@
+# Welcome to Thirumagal Decors and Events robots.txt
+
+# Allow all other bots
 User-agent: *
 Allow: /
+Disallow: /private/
+Disallow: /admin/
 
-Sitemap: https://thirumagalevents.com/sitemap.xml
+# AI Machine-readable Info
+# Provides a summary of the site content for LLMs.
+# Standardized location: /llms.txt
+User-agent: *
+Sitemap: https://thirumagaldecorsandevents.com/sitemap.xml
+
+# Specific directives for AI/LLM crawlers
+# OpenAI (GPTBot)
+User-agent: GPTBot
+Allow: /
+
+# Anthropic (ClaudeBot)
+User-agent: Claude-Web
+Allow: /
+
+# Google-Extended (Gemini/Bard)
+User-agent: Google-Extended
+Allow: /
+
+# Apple AI Bot
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl (CCBot)
+User-agent: CCBot
+Allow: /
+
+# Meta (MetaExternalFetcher)
+User-agent: MetaExternalFetcher
+Allow: /
+
+# Perplexity (PerplexityBot)
+User-agent: PerplexityBot
+Allow: /
+
+# Pointing to the LLM-specific summary file
+# Some AI scrapers look for this specifically
+Sitemap: https://thirumagaldecorsandevents.com/llms.txt
